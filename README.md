@@ -1,6 +1,6 @@
 # movie-pepper
 
-[![license](https://img.shields.io/github/license/hugo19941994/movie-pepper-front.svg)](https://github.com/hugo19941994/ViajeFacil/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/hugo19941994/movie-pepper-front.svg)](https://github.com/hugo19941994/movie-pepper-front/blob/master/LICENSE.md)
 [![Dependency Status](https://david-dm.org/hugo19941994/movie-pepper-front.svg)](https://david-dm.org/hugo19941994/movie-pepper-front)
 [![devDependency Status](https://david-dm.org/hugo19941994/movie-pepper-front/dev-status.svg)](https://david-dm.org/hugo19941994/movie-pepper-front?type=dev)
 
