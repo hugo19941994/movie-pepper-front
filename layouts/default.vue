@@ -12,8 +12,8 @@ import MyHeader from '~/components/Header.vue'
 
 export default {
   components: {
-      MyFooter,
-      MyHeader
+    MyFooter,
+    MyHeader
   }
 }
 </script>
