@@ -31,8 +31,5 @@ module.exports = {
         'babel-plugin-transform-flow-strip-types'
       ]
     }
-  },
-  env: {
-    URL: "http://localhost:5000",
   }
 }
