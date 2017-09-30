@@ -141,7 +141,7 @@ export default {
   },
   methods: {
     getMovieList: function () {
-      fetch('http://localhost:5000/movies')
+      fetch(process.env.URL + '/movies')
         .then((r) => {
           return r.text()
         }).then((rr) => {
@@ -151,7 +151,7 @@ export default {
     calcRecommendtion: function (movie: Object) {
       this.selectedMovie = movie
       this.selectedMovieShow = true
-      fetch('http://localhost:5000/recommend/' + movie.title)
+      fetch(process.env.URL + '/recommend/' + movie.title)
         .then((r) => {
           return r.text()
         }).then((rr) => {
@@ -171,7 +171,7 @@ export default {
     calcRecommendtionD2V: function (movie: Object) {
       this.selectedMovie = movie
       this.selectedMovieShow = true
-      fetch('http://localhost:5000/recommend-d2v/' + movie.title)
+      fetch(process.env.URL + '/recommend-d2v/' + movie.title)
         .then((r) => {
           return r.json()
         }).then((r) => {
