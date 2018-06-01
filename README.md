@@ -2,7 +2,7 @@
 
 [![Dependency Status](https://david-dm.org/hugo19941994/movie-pepper-front.svg)](https://david-dm.org/hugo19941994/movie-pepper-front)
 [![devDependency Status](https://david-dm.org/hugo19941994/movie-pepper-front/dev-status.svg)](https://david-dm.org/hugo19941994/movie-pepper-front?type=dev)
-[![Build Status](https://travis-ci.org/hugo19941994/movie-pepper-front.svg?branch=master)](https://travis-ci.org/hugo19941994/movie-pepper-front)
+[![Build Status](https://travis-ci.com/hugo19941994/movie-pepper-front.svg?branch=master)](https://travis-ci.com/hugo19941994/movie-pepper-front)
 
 
 ## Build Setup
