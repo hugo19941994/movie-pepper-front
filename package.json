@@ -34,7 +34,7 @@
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-standard": "^3.1.0",
     "eslint-plugin-vue": "^4.7.1",
-    "nodemon": "^1.18.3",
+    "nodemon": "^1.18.4",
     "scmp": "^2.0.0"
   }
 }
