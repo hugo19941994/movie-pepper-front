@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "koa": "^2.5.2",
+    "koa": "^2.5.3",
     "nuxt": "~1.4.2",
     "source-map-support": "^0.5.9",
     "vuetify": "^1.2.3"
