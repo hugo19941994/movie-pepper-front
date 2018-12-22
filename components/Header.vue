@@ -1,10 +1,20 @@
 <template>
-    <header>
-    <v-toolbar>
-        <v-toolbar-title>Welcome!</v-toolbar-title>
-        <v-spacer></v-spacer>
-        <v-btn flat to='/'>Home</v-btn>
-        <v-btn flat to='/about'>About</v-btn>
-    </v-toolbar>
-</header>
+  <header>
+    <VToolbar>
+      <VToolbarTitle>Welcome!</VToolbarTitle>
+      <VSpacer />
+      <VBtn
+        flat
+        to="/"
+      >
+        Home
+      </VBtn>
+      <VBtn
+        flat
+        to="/about"
+      >
+        About
+      </VBtn>
+    </VToolbar>
+  </header>
 </template>
