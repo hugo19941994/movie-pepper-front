@@ -16,7 +16,7 @@
     "koa": "^2.11.0",
     "nuxt": "~2.10.2",
     "source-map-support": "^0.5.16",
-    "vuetify": "^2.1.14"
+    "vuetify": "^2.1.15"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
