@@ -15,7 +15,7 @@
     "cross-env": "^7.0.2",
     "koa": "^2.11.0",
     "nuxt": "~2.12.2",
-    "source-map-support": "^0.5.16",
+    "source-map-support": "^0.5.19",
     "vuetify": "^2.2.23"
   },
   "devDependencies": {
