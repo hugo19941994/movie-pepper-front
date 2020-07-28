@@ -1,9 +1,9 @@
 <template>
-  <div>
-      <my-header/>
-    <nuxt/>
-    <my-footer/>
-  </div>
+  <v-app>
+    <my-header />
+    <nuxt />
+    <my-footer />
+  </v-app>
 </template>
 
 <script>
@@ -51,5 +51,10 @@ export default {
   font-weight: 300;
   font-size: 2.5em;
   margin: 0;
+}
+
+#logo {
+  height: 80%;
+  margin: -80px;
 }
 </style>

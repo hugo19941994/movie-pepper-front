@@ -1,10 +1,21 @@
 <template>
-    <header>
-    <v-toolbar>
-        <v-toolbar-title>Welcome!</v-toolbar-title>
-        <v-spacer></v-spacer>
-        <v-btn flat to='/'>Home</v-btn>
-        <v-btn flat to='/about'>About</v-btn>
-    </v-toolbar>
-</header>
+  <v-app-bar>
+    <object id="logo" data="hot-pepper.svg" type="image/svg+xml" />
+    <v-toolbar-title>Movie Pepper</v-toolbar-title>
+    <object id="logo" data="hot-pepper.svg" type="image/svg+xml" />
+
+    <v-spacer />
+    <v-btn
+      text
+      to="/"
+    >
+      Home
+    </v-btn>
+    <v-btn
+      text
+      to="/about"
+    >
+      About
+    </v-btn>
+  </v-app-bar>
 </template>

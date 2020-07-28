@@ -1,5 +1,5 @@
-var CACHE_NAME = 'my-site-cache-v3'
-var urlsToCache = ['/']
+const CACHE_NAME = 'my-site-cache-v3'
+const urlsToCache = ['/']
 
 self.addEventListener('install', function (event) {
   // Perform install steps
