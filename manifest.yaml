@@ -1,0 +1,36 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: moviepepper-frontend
+spec:
+  type: NodePort
+  selector:
+    app: moviepepper-frontend
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 3000
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: moviepepper-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: moviepepper-frontend
+  template:
+    metadata:
+      labels:
+        app: moviepepper-frontend
+    spec:
+      containers:
+      - name: moviepepper-frontend
+        image: hugo19941994/moviepepper-frontend
+        ports:
+        - containerPort: 3000
+          protocol: TCP
+
